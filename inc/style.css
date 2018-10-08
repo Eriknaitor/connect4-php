@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    background: #000;
+    color: #FFF;
+}
+
+.start {
+    margin-top: 10px;
+    border: 1px solid #FFF;
+    background: #000;
+    color: #FFF;
+}
+
+.table {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+table {
+    margin: 0 auto;
+    padding: 0.25%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    border: 1px solid #000;
+    height: 30px;
+    width: 30px;
+}
+
+.rdot,
+.bdot {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.rdot {
+    background-color: #FFABAB;
+}
+
+.bdot {
+    background-color: #ACE7FF;
+}
+
+.turn {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.winnerA {
+    color: #FFABAB;
+}
+
+.winnerB {
+    color: #ACE7FF;
+}
+
+button {
+    border: 1px solid #FFF;
+    background: #000;
+    color: #FFF;
+}
